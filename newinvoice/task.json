@@ -1,0 +1,30 @@
+{
+  "id": "FLOWS/clevver/newinvoice",
+  "lambda": "lambda-arn",
+  "role": "iam-arn",
+  "input": {
+    "examples": {
+      "sampleaccount": {
+        "account":{
+          "username":"abc123",
+          "password":"abc123"
+        }
+      }
+    }
+  },
+  "output": {
+      "examples": {
+          "result": {
+            "number": "IN1901111111", 
+            "date": "2019-03-01", 
+            "net": "6.26", 
+            "price": "7.45", 
+            "customer": "99999", 
+            "pdf": "JVBERi0xLj..."
+      }
+  },
+  "type": "poller",
+  "description": "triggers whenever a new invoice is available",
+  "icon": "https://flows.app/favicon.png",
+  "billing": "standard"
+}
