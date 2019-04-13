@@ -13,15 +13,16 @@
     }
   },
   "output": {
-      "examples": {
-          "result": {
-            "number": "IN1901111111", 
-            "date": "2019-03-01", 
-            "net": "6.26", 
-            "price": "7.45", 
-            "customer": "99999", 
-            "pdf": "JVBERi0xLj..."
+    "examples": {
+      "result": {
+        "number": "IN1901111111", 
+        "date": "2019-03-01", 
+        "net": "6.26", 
+        "price": "7.45", 
+        "customer": "99999", 
+        "pdf": "JVBERi0xLj..."
       }
+    }
   },
   "type": "poller",
   "description": "triggers whenever a new invoice is available",
